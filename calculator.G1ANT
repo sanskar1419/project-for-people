@@ -1,0 +1,18 @@
+addon core version 4.107.0.0
+addon language version 4.106.1.0
+program calc
+window ✱calc✱
+delay 10
+keyboard ‴50 + 20 =‴
+delay 20
+keyboard ‴8 * 20 / 10 =‴
+delay 3
+keyboard ‴10 / 10 =‴
+delay 20
+keyboard ‴8/2 =‴
+delay 3
+keyboard ‴10*25 =‴
+delay 20
+keyboard ‴8 +5 =‴
+delay 3
+keyboard ‴10102*5645 =‴

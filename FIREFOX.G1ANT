@@ -1,0 +1,9 @@
+addon selenium version 4.104.0.0
+addon core version 4.107.0.0
+addon language version 4.106.1.0
+selenium.open firefox url youtube.com 
+delay 5 
+selenium.type ‴world cup 2011‴  search search_query by name
+selenium.click search //*[@id="search-icon-legacy"] by xpath 
+delay 5 
+mouse.click button left position 250⫽300

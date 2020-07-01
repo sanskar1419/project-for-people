@@ -1,0 +1,12 @@
+addon selenium version 4.104.0.0
+addon core version 4.107.0.0
+addon language version 4.106.1.0
+♥folderPath = ♥environment⟦TEMP⟧\
+♥filePath = ♥folderPath + "TempTestDebug.xlsx"
+file.delete ♥filePath
+xlsx.open path ♥filePath createifnotexist true
+xlsx.close
+xlsx.open path ♥filePath accessmode readwrite
+xlsx.setsheet ‴Sheet 1‴ result ♥res
+xlsx.close
+file.delete ♥filePath
